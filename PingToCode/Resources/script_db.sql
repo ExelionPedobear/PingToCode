@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `comment` (
   `Id` int(11) NOT NULL,
-  `IdComment` int(11) NOT NULL,
+  `IdMedia` int(11) NOT NULL,
   `IdUser` int(11) NOT NULL,
   `DateComment` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -47,22 +47,12 @@ CREATE TABLE `event` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `event_media`
---
-
-CREATE TABLE `event_media` (
-  `IdEvent` int(11) NOT NULL,
-  `IdMedia` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
 -- Structure de la table `media`
 --
 
 CREATE TABLE `media` (
   `Id` int(11) NOT NULL,
+  `IdEvent` int(11) NOT NULL,
   `TypeContent` int(11) NOT NULL,
   `Link` varchar(255) NOT NULL,
   `IsActivated` bit(1) NOT NULL

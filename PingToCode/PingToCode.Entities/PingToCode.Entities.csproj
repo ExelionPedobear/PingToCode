@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="Comment.cs" />
     <Compile Include="Event.cs" />
-    <Compile Include="EventMedia.cs" />
     <Compile Include="Media.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
