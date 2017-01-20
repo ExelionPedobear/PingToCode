@@ -40,11 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrontOffice\GalleryIRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BackOffice\" />
-    <Folder Include="FrontOffice\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PingToCode.Entities\PingToCode.Entities.csproj">
+      <Project>{fd093022-e739-4ea0-873d-a853edacfbb1}</Project>
+      <Name>PingToCode.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
