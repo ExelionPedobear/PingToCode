@@ -1,4 +1,4 @@
-﻿namespace Classes
+﻿namespace PingToCode.Entities
 {
     public class Note
     {

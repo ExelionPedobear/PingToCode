@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Classes
+namespace PingToCode.Entities
 {
     public class Comment
     {
