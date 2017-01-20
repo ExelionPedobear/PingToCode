@@ -40,11 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrontOffice\GalleryIRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BackOffice\" />
+    <Folder Include="FrontOffice\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PingToCode.Entities\PingToCode.Entities.csproj">

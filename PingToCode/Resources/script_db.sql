@@ -117,12 +117,6 @@ ALTER TABLE `event`
   ADD PRIMARY KEY (`Id`);
 
 --
--- Index pour la table `event_media`
---
-ALTER TABLE `event_media`
-  ADD PRIMARY KEY (`IdEvent`,`IdMedia`);
-
---
 -- Index pour la table `media`
 --
 ALTER TABLE `media`
